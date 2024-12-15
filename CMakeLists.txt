@@ -10,4 +10,8 @@ add_executable(CPP_Contenedores_Dinamicos
         ejercicio2/Ejercicio2.cpp
         ejercicio2/Ejercicio2.h
         ejercicio3/Ejercicio3.cpp
-        ejercicio3/Ejercicio3.h)
+        ejercicio3/Ejercicio3.h
+        ejercicio4/Ejercicio4.cpp
+        ejercicio4/Ejercicio4.h
+        ejercicio4/Ejercicio4.cpp
+        ejercicio4/Ejercicio4.h)
