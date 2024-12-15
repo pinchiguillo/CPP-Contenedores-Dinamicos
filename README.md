@@ -129,3 +129,11 @@ int main() {
 }
 ```
 Cada uno de estos códigos debe ser pegado en la función main() de tu programa en CLion. Asegúrate de tener las librerías necesarias instaladas y correctamente configuradas en tu entorno de CLion. También recuerda que para el último ejercicio necesitas tener instalada la biblioteca Boost.
+
+
+## Instalación de Boost
+
+Para la implementación del ejercicio 6 he utilizado wsl2 con Ubuntu 20.04, por lo que la instalación de Boost se realiza de la siguiente manera:
+```bash
+sudo apt-get install libboost-all-dev
+```
