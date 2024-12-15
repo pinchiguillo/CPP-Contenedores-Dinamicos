@@ -5,11 +5,23 @@
 #include <locale>
 #include <iostream>
 
+#include "ejercicio1/Ejercicio1.h"
+
 int main() {
 
     std::locale::global(std::locale(""));
 
-    std::cout << "Hello, World!" << std::endl;
+    int opt = 0;
+
+    std::cout << "Elija el ejercicio a ejecutar: ";
+    std::cin >> opt;
+
+    switch (opt) {
+        case 1: Ejercicio1(); break;
+
+        default:
+            std::cout << "Ejercicio no encontrado" << std::endl;
+    }
 
     return 0;
 }
